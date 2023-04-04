@@ -1,0 +1,11 @@
+.main-section{overflow-x: hidden;position: relative;}
+.main-section .main-div .img-main{height: 500px;width: 100%;object-fit: cover;}
+
+.main-section .main-div{ transition: transform 0.6s ease;}
+
+.slick-prev.slick-arrow{left: 0;}
+.slick-next.slick-arrow{right: 0;}
+
+.slick-prev.slick-arrow,
+.slick-next.slick-arrow{position: absolute;z-index: 999;top: 50%;transform: translateY(-50%);background: #181818;color: #ffffff;border: transparent;border-radius: 50%;height: 50px;width: 50px;}
+
